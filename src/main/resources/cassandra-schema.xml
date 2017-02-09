@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cassandra>
+    <use>
+        use hands_on
+    </use>
+    <tables>
+        <table>
+            create table if not exists person (email text, first_name text, last_name text, address text,
+            primary key (email))
+        </table>
+    </tables>
+
+    <indexes>
+    </indexes>
+
+</cassandra>
+
+
+
+
+
+
+
+
